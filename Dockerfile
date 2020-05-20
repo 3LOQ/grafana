@@ -5,6 +5,7 @@ WORKDIR /usr/src/app/
 COPY package.json yarn.lock ./
 COPY packages packages
 
+RUN yarn upgrade
 RUN yarn install --pure-lockfile --no-progress
 
 COPY Gruntfile.js tsconfig.json .eslintrc .editorconfig .browserslistrc .prettierrc.js ./
