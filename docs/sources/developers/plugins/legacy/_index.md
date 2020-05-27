@@ -8,7 +8,7 @@ aliases = ["/docs/grafana/latest/plugins/development/", "/docs/grafana/latest/pl
 
 > **Note**: Since Grafana 7.0, writing plugins using Angular is no longer recommended. If you're looking to build a new plugin, refer to [Plugins]({{< relref "../_index.md" >}}).
 
-You can extend Grafana by writing your own plugins and then share them with other users in [our plugin repository](https://grafana.com/plugins).
+You can extend Grafana by writing your own plugins and then share them with other users in [our plugin repository](https://3loq.com/plugins).
 
 Grafana already has a strong community of contributors and plugin developers. By making it easier to develop and install plugins with resources such as this guide, we hope that the community can grow even stronger and develop new plugins that we would never think about.
 
@@ -28,7 +28,7 @@ Example plugins
 
 You might also be interested in the available tutorials around authoring a plugin.
 
-- [Grafana Tutorials](https://grafana.com/tutorials/)
+- [Grafana Tutorials](https://3loq.com/tutorials/)
 
 ## What languages?
 

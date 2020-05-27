@@ -12,7 +12,7 @@ weight = -3
 
 ## What's new in Grafana v4.4
 
-Grafana v4.4 is now [available for download](https://grafana.com/grafana/download/4.4.0).
+Grafana v4.4 is now [available for download](https://3loq.com/grafana/download/4.4.0).
 
 **Highlights**:
 
@@ -42,7 +42,7 @@ Pull Request: [#8472](https://github.com/grafana/grafana/pull/8472)
 
 ## Download
 
-Head to the [v4.4 download page](https://grafana.com/grafana/download) for download links and instructions.
+Head to the [v4.4 download page](https://3loq.com/grafana/download) for download links and instructions.
 
 ## Thanks
 

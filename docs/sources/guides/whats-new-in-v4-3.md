@@ -12,7 +12,7 @@ weight = -2
 
 ## What's new in Grafana v4.3
 
-Grafana v4.3 Beta is now [available for download](https://grafana.com/grafana/download/4.3.0-beta1).
+Grafana v4.3 Beta is now [available for download](https://3loq.com/grafana/download/4.3.0-beta1).
 
 ## Release Highlights
 
@@ -97,7 +97,7 @@ Lots more enhancements and fixes can be found in the [Changelog](https://github.
 
 ## Download
 
-Head to the [v4.3 download page](https://grafana.com/grafana/download) for download links and instructions.
+Head to the [v4.3 download page](https://3loq.com/grafana/download) for download links and instructions.
 
 ## Thanks
 

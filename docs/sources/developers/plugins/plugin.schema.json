@@ -122,7 +122,7 @@
       "properties": {
         "grafanaVersion": {
           "type": "string",
-          "description": "3LOQ-Habitual Version",
+          "description": "Required Grafana version for this plugin, e.g. `6.x.x 7.x.x` to denote plugin requires Grafana v6.x.x or v7.x.x.",
           "pattern": "^([0-9x]+\\.[0-9x]+\\.*[0-9x]*\\s*)+$"
         },
         "plugins": {
@@ -254,10 +254,10 @@
     },
     "routes": {
       "type": "array",
-      "description": "For data source plugins. Proxy routes used for plugin authentication and adding headers to HTTP requests made by the plugin. For more information, refer to [Authentication for data source plugins](https://grafana.com/docs/grafana/latest/developers/plugins/authentication/).",
+      "description": "For data source plugins. Proxy routes used for plugin authentication and adding headers to HTTP requests made by the plugin. For more information, refer to [Authentication for data source plugins](https://3loq.com/docs/grafana/latest/developers/plugins/authentication/).",
       "items": {
         "type": "object",
-        "description": "For data source plugins. Proxy routes used for plugin authentication and adding headers to HTTP requests made by the plugin. For more information, refer to [Authentication for data source plugins](https://grafana.com/docs/grafana/latest/developers/plugins/authentication/).",
+        "description": "For data source plugins. Proxy routes used for plugin authentication and adding headers to HTTP requests made by the plugin. For more information, refer to [Authentication for data source plugins](https://3loq.com/docs/grafana/latest/developers/plugins/authentication/).",
         "additionalProperties": false,
         "properties": {
           "path": {

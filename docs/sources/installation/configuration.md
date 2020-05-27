@@ -500,7 +500,7 @@ Analytics ID here. By default this feature is disabled.
 
 ### check_for_updates
 
-Set to false to disable all checks to https://grafana.com for new versions of installed plugins and to the Grafana GitHub repository to check for a newer version of Grafana. The version information is used in some UI views to notify that a new Grafana update or a plugin update exists. This option does not cause any auto updates, nor send any sensitive information. The check is run every 10 minutes.
+Set to false to disable all checks to https://3loq.com for new versions of installed plugins and to the Grafana GitHub repository to check for a newer version of Grafana. The version information is used in some UI views to notify that a new Grafana update or a plugin update exists. This option does not cause any auto updates, nor send any sensitive information. The check is run every 10 minutes.
 
 <hr />
 
@@ -722,7 +722,7 @@ Optional extra path inside bucket, useful to apply expiration policies.
 (for backward compatibility, only works when no bucket or region are configured)
 Bucket URL for S3. AWS region can be specified within URL or defaults to 'us-east-1', e.g.
 - http://grafana.s3.amazonaws.com/
-- https://grafana.s3-ap-southeast-2.amazonaws.com/
+- https://3loq.s3-ap-southeast-2.amazonaws.com/
 
 ### access_key
 Access key, e.g. AAAAAAAAAAAAAAAAAAAA.

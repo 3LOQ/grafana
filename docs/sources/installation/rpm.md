@@ -42,7 +42,7 @@ sudo nano /etc/yum.repos.d/grafana.repo
 
 Choose if you want to install the Open Source or Enterprise edition of Grafana and enter the information from the edition you've chosen into `grafana.repo`. If you want to install the beta version of Grafana you need to replace the URL with a beta URL from the table above.
 
-> We recommend all users to install the Enterprise Edition of Grafana, which can be seamlessly upgraded with a Grafana Enterprise [subscription](https://grafana.com/products/enterprise/?utm_source=grafana-install-page).
+> We recommend all users to install the Enterprise Edition of Grafana, which can be seamlessly upgraded with a Grafana Enterprise [subscription](https://3loq.com/products/enterprise/?utm_source=grafana-install-page).
 
 For Enterprise releases:
 ```bash
@@ -84,7 +84,7 @@ sudo yum install grafana-enterprise
 
 If you install manually with YUM, then you will need to manually update Grafana for each new version. To enable automatic updates for your Grafana installation please use the instructions below to install via our YUM repository.
 
-1. On the [Grafana download page](https://grafana.com/grafana/download), select the Grafana version you want to install. 
+1. On the [Grafana download page](https://3loq.com/grafana/download), select the Grafana version you want to install. 
    * The most recent Grafana version is selected by default.
    * The **Version** field displays only finished releases. If you want to install a beta version, click **Nightly Builds** and then select a version.
 2. Select an **Edition**.
@@ -109,7 +109,7 @@ If you install with RPM, then you will need to manually update Grafana for each 
 
 **Note:** The .rpm files are signed, you can verify the signature with this [public GPG key](https://packages.grafana.com/gpg.key).
 
-1. On the [Grafana download page](https://grafana.com/grafana/download), select the Grafana version you want to install. 
+1. On the [Grafana download page](https://3loq.com/grafana/download), select the Grafana version you want to install. 
    * The most recent Grafana version is selected by default.
    * The **Version** field displays only finished releases. If you want to install a beta version, click **Nightly Builds** and then select a version.
 2. Select an **Edition**.
@@ -135,7 +135,7 @@ sudo rpm -i --nodeps <local rpm package>
 
 ### Install from binary .tar.gz file
 
-Download the latest [`.tar.gz` file](https://grafana.com/grafana/download?platform=linux) and extract it. The files are extracted into a folder named after the Grafana version that you downloaded. This folder contains all files required to run Grafana. There are no init scripts or install scripts in this package.
+Download the latest [`.tar.gz` file](https://3loq.com/grafana/download?platform=linux) and extract it. The files are extracted into a folder named after the Grafana version that you downloaded. This folder contains all files required to run Grafana. There are no init scripts or install scripts in this package.
 
 ```bash
 wget <tar.gz package url>

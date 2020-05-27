@@ -18,4 +18,4 @@ weight = 200
 - [Install on macOS]({{< relref "mac" >}})
 - [Install on Windows]({{< relref "windows" >}})
 - [Run Docker image]({{< relref "docker" >}})
-- [Nightly Builds](https://grafana.com/grafana/download)
+- [Nightly Builds](https://3loq.com/grafana/download)

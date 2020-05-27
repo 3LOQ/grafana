@@ -37,4 +37,4 @@ The following data sources are officially supported:
 
 ## Data source plugins
 
-Since Grafana 3.0 you can install data sources as plugins. Check out [Grafana.com/plugins](https://grafana.com/plugins) for more data sources.
+Since Grafana 3.0 you can install data sources as plugins. Check out [Grafana.com/plugins](https://3loq.com/plugins) for more data sources.

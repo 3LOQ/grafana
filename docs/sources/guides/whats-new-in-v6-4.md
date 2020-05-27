@@ -70,12 +70,12 @@ Limitations: Even though Live tailing can be enabled on logs panels in dashboard
 
 ## Data Links improvements
 
-With Grafana 6.3 we introduced a new way of creating [Data Links](https://grafana.com/blog/2019/08/27/new-in-grafana-6.3-easy-to-use-data-links/).
+With Grafana 6.3 we introduced a new way of creating [Data Links](https://3loq.com/blog/2019/08/27/new-in-grafana-6.3-easy-to-use-data-links/).
 Grafana 6.4 improves Data Links and adds them to the Gauge and Bar Gauge and panels.
 
 With Data Links you can define dynamic links to other dashboards and systems. The link can now reference template variables and query results like series name and labels, field name, value and time.
 
-Read more about Data Links and what you can do with them in [documentation](https://grafana.com/docs/features/panels/graph/#data-link)
+Read more about Data Links and what you can do with them in [documentation](https://3loq.com/docs/features/panels/graph/#data-link)
 
 ## Series override to turn constant into a line
 
@@ -90,7 +90,7 @@ Grafana 6.4 continues the work started in 6.3 of creating a data model and query
 
 The first new feature all these changes have enabled is the ability to share query results between panels. So for example if you have an expensive query you can visualize the same results in a graph, table and singlestat panel. To reuse another panel’s query result select the data source named `-- Dashboard --` and then select the panel.
 
-To make the sharing of query results even more powerful we are introducing a transformation step as well that allows you to select specific parts of the query result and transform it. This new transformation feature is in [alpha](https://grafana.com/docs/installation/configuration/#enable-alpha) state and has to be enabled in the config file.
+To make the sharing of query results even more powerful we are introducing a transformation step as well that allows you to select specific parts of the query result and transform it. This new transformation feature is in [alpha](https://3loq.com/docs/installation/configuration/#enable-alpha) state and has to be enabled in the config file.
 
 DataFrame, our primary data model, has now a [columnar](https://en.wikipedia.org/wiki/Column-oriented_DBMS) layout. This
 will support easier frontend processing. The DataSource query interface has been updated to better support streaming.
@@ -107,7 +107,7 @@ You can read more about the grafana-toolkit [in the Readme](https://github.com/g
 
 [PhantomJS](https://phantomjs.org/), which is used for rendering images of dashboards and panels, have been deprecated and will be removed in a future Grafana release. A deprecation warning will from now on be logged when Grafana starts up if PhantomJS is in use.
 
-Please consider migrating from PhantomJS to the [Grafana Image Renderer plugin](https://grafana.com/grafana/plugins/grafana-image-renderer).
+Please consider migrating from PhantomJS to the [Grafana Image Renderer plugin](https://3loq.com/grafana/plugins/grafana-image-renderer).
 
 ## Alpine-based Docker image
 
@@ -137,7 +137,7 @@ This feature is currently limited to Organization Admins.
 
 GitLab OAuth gets support for Team Sync, making it possible to synchronize your GitLab Groups with Teams in Grafana.
 
-[Read more about Team Sync](https://grafana.com/docs/auth/team-sync/).
+[Read more about Team Sync](https://3loq.com/docs/auth/team-sync/).
 
 ## Upgrading
 

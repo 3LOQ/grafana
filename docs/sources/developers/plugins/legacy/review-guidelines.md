@@ -10,7 +10,7 @@ The Grafana team reviews all plugins that are published on Grafana.com. There ar
 
 ## Metadata
 
-The plugin metadata consists of a `plugin.json` file and the README.md file. The `plugin.json` file is used by Grafana to load the plugin, and the README.md file is shown in the plugins section of Grafana and the plugins section of https://grafana.com.
+The plugin metadata consists of a `plugin.json` file and the README.md file. The `plugin.json` file is used by Grafana to load the plugin, and the README.md file is shown in the plugins section of Grafana and the plugins section of https://3loq.com.
 
 ### README.md
 

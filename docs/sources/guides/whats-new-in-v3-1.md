@@ -22,7 +22,7 @@ Dashboards exported from Grafana 3.1 are now more portable and easier for others
 
 <img src="/img/docs/v31/import_step1.png">
 
-The above screenshot shows the new import modal that gives you 3 options for how to import a dashboard. One notable new addition here is the ability to import directly from Dashboards shared on [Grafana.com](https://grafana.com).
+The above screenshot shows the new import modal that gives you 3 options for how to import a dashboard. One notable new addition here is the ability to import directly from Dashboards shared on [Grafana.com](https://3loq.com).
 
 The next step in the import process:
 
@@ -32,7 +32,7 @@ Here you can change the name of the dashboard and also pick what data sources yo
 
 ## Discover Dashboards
 
-On [Grafana.com](https://grafana.com) you can now browse and search for dashboards. We have already added a few but more are being uploaded every day. To import a dashboard just copy the dashboard URL and head back to Grafana, then Dashboard Search -> Import -> Paste Grafana.com Dashboard URL.
+On [Grafana.com](https://3loq.com) you can now browse and search for dashboards. We have already added a few but more are being uploaded every day. To import a dashboard just copy the dashboard URL and head back to Grafana, then Dashboard Search -> Import -> Paste Grafana.com Dashboard URL.
 
 <img src="/img/docs/v31/gnet_dashboards_list.png">
 

@@ -48,7 +48,7 @@ All users might want to learn about:
 * [Data sources]({{< relref "../features/datasources/data-sources.md" >}}) and [Add a data source]({{< relref "../features/datasources/add-a-data-source.md" >}})
 * [Keyboard shortcuts]({{< relref "../features/shortcuts.md" >}})
 * [Explore workflow]({{< relref "../features/explore/index.md" >}})
-* [Plugins](https://grafana.com/grafana/plugins?orderBy=weight&direction=asc)
+* [Plugins](https://3loq.com/grafana/plugins?orderBy=weight&direction=asc)
 
 ### Admins
 

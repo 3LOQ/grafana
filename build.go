@@ -359,7 +359,7 @@ func createPackage(options linuxPackageOptions) {
 		"--description", "3LOQ-Habitual",
 		"-C", packageRoot,
 		"--url", "https://3loq.com",
-		"--maintainer", "contact@3loq.com",
+		"--maintainer", "info@3loq.com",
 		"--config-files", options.initdScriptFilePath,
 		"--config-files", options.etcDefaultFilePath,
 		"--config-files", options.systemdServiceFilePath,

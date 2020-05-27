@@ -10,9 +10,7 @@ export interface FooterLink {
 }
 
 export let getFooterLinks = (): FooterLink[] => {
-  return [
-    
-  ];
+  return [];
 };
 
 export let getVersionLinks = (): FooterLink[] => {

@@ -25,7 +25,7 @@ If you just want to explore your data and do not want to create a dashboard then
 
 ## Start exploring
 
-> **Note:** By default, users with the Viewer role cannot edit and do not have access to Explore. Refer to [Organization roles](https://grafana.com/docs/grafana/latest/permissions/organization_roles/) for more information about what each role has access to.
+> **Note:** By default, users with the Viewer role cannot edit and do not have access to Explore. Refer to [Organization roles](https://3loq.com/docs/grafana/latest/permissions/organization_roles/) for more information about what each role has access to.
 
 There is an Explore icon on the menu bar to the left. This opens an empty Explore tab.
 
@@ -41,7 +41,7 @@ The query field is where you can write your query and explore your data. There a
 
 ## Split and compare
 
-The Split feature is an easy way to compare graphs and tables side-by-side or to look at related data together on one page. Click the split button to duplicate the current query and split the page into two side-by-side queries. It is possible to select another data source for the new query which for example, allows you to compare the same query for two different servers or to compare the staging environment to the production environment.
+The split view feature is an easy way to compare graphs and tables side-by-side or to look at related data together on one page. Click the split button to duplicate the current query and split the page into two side-by-side queries. It is possible to select another data source for the new query which for example, allows you to compare the same query for two different servers or to compare the staging environment to the production environment.
 
 {{< docs-imagebox img="/img/docs/v65/explore_split.png" class="docs-image--no-shadow" caption="Screenshot of the new Explore option in the panel menu" >}}
 
@@ -172,7 +172,7 @@ Each log row has an extendable area with its labels and parsed fields, for more 
 
 ### Loki-specific features
 
-As mentioned, one of the log integrations is for the new open source log aggregation system from Grafana Labs - [Loki](https://github.com/grafana/loki). Loki is designed to be very cost effective, as it does not index the contents of the logs, but rather a set of labels for each log stream. The logs from Loki are queried in a similar way to querying with label selectors in Prometheus. It uses labels to group log streams which can be made to match up with your Prometheus labels. Read more about Grafana Loki [here](https://github.com/grafana/loki) or the Grafana Labs hosted variant: [Grafana Cloud Logs](https://grafana.com/loki).
+As mentioned, one of the log integrations is for the new open source log aggregation system from Grafana Labs - [Loki](https://github.com/grafana/loki). Loki is designed to be very cost effective, as it does not index the contents of the logs, but rather a set of labels for each log stream. The logs from Loki are queried in a similar way to querying with label selectors in Prometheus. It uses labels to group log streams which can be made to match up with your Prometheus labels. Read more about Grafana Loki [here](https://github.com/grafana/loki) or the Grafana Labs hosted variant: [Grafana Cloud Logs](https://3loq.com/loki).
 
 See [Loki's data source documentation](../datasources/loki) on how to query for log data.
 

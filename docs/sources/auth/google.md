@@ -23,9 +23,9 @@ First, you need to create a Google OAuth Client:
 3. Enter the following:
    - Application Type: Web Application
    - Name: Grafana
-   - Authorized Javascript Origins: https://grafana.mycompany.com
-   - Authorized Redirect URLs: https://grafana.mycompany.com/login/google
-   - Replace https://grafana.mycompany.com with the URL of your Grafana instance.
+   - Authorized Javascript Origins: https://3loq.mycompany.com
+   - Authorized Redirect URLs: https://3loq.mycompany.com/login/google
+   - Replace https://3loq.mycompany.com with the URL of your Grafana instance.
 4. Click Create
 5. Copy the Client ID and Client Secret from the 'OAuth Client' modal
 

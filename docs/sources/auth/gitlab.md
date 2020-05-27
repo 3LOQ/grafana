@@ -20,10 +20,10 @@ You need to [create a GitLab OAuth application](https://docs.gitlab.com/ce/integ
 Choose a descriptive *Name*, and use the following *Redirect URI*:
 
 ```
-https://grafana.example.com/login/gitlab
+https://3loq.example.com/login/gitlab
 ```
 
-where `https://grafana.example.com` is the URL you use to connect to Grafana.
+where `https://3loq.example.com` is the URL you use to connect to Grafana.
 Adjust it as needed if you don't use HTTPS or if you use a different port; for
 instance, if you access Grafana at `http://203.0.113.31:3000`, you should use
 

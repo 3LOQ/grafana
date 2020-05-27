@@ -222,8 +222,8 @@ To configure SAML integration with Okta, create integration inside the Okta orga
 1. Click **Create**.
 1. On the **General Settings** tab, enter a name for your Grafana integration. You can also upload a logo.
 1. On the **Configure SAML** tab, enter the SAML information related to your Grafana instance:
-    - In the **Single sign on URL** field, use the `/saml/acs` endpoint URL of your Grafana instance, for example, `https://grafana.example.com/saml/acs`.
-    - In the **Audience URI (SP Entity ID)** field, use the `/saml/metadata` endpoint URL, for example, `https://grafana.example.com/saml/metadata`.
+    - In the **Single sign on URL** field, use the `/saml/acs` endpoint URL of your Grafana instance, for example, `https://3loq.example.com/saml/acs`.
+    - In the **Audience URI (SP Entity ID)** field, use the `/saml/metadata` endpoint URL, for example, `https://3loq.example.com/saml/metadata`.
     - Leave the default values for **Name ID format** and **Application username**.
     - In the **ATTRIBUTE STATEMENTS (OPTIONAL)** section, enter the SAML attributes to be shared with Grafana, for example:
       
@@ -256,7 +256,7 @@ When you are finished, the Grafana configuration might look like this example:
 
 ```bash
 [server]
-root_url = https://grafana.example.com
+root_url = https://3loq.example.com
 
 [auth.saml]
 enabled = true

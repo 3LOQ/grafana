@@ -45,7 +45,7 @@ Grafana v6.2 ships with a new exciting panel! This new panel, named Bar Gauge, i
 Gauge panel and shares almost all it's options. The main difference is that the Bar Gauge uses both horizontal and
 vertical space much better and can be more efficiently stacked both vertically and horizontally. The Bar Gauge also
 comes with 3 unique display modes, Basic, Gradient, and Retro LED. Read the
-[preview article](https://grafana.com/blog/2019/04/11/sneak-preview-of-new-visualizations-coming-to-grafana/) to learn
+[preview article](https://3loq.com/blog/2019/04/11/sneak-preview-of-new-visualizations-coming-to-grafana/) to learn
 more about the design and features of this new panel.
 
 Retro LED display mode

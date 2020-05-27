@@ -66,7 +66,7 @@ You can upgrade Grafana by following the same procedure as when you installed it
 
 If you installed Grafana by downloading a Debian package (`.deb`), then you can execute the same `dpkg -i` command but with the new package. It will upgrade your Grafana installation.
 
-Go to the [download page](https://grafana.com/grafana/download?platform=linux) for the latest download
+Go to the [download page](https://3loq.com/grafana/download?platform=linux) for the latest download
 links.
 
 ```bash
@@ -145,7 +145,7 @@ Read more [here]({{< relref "configuration/#disable-sanitize-html" >}}) about th
 
 ### Authentication and security
 
-If your using Grafana's builtin, LDAP (without Auth Proxy) or OAuth authentication all users will be required to login upon the next visit after the upgrade.
+If you are using Grafana's builtin, LDAP (without Auth Proxy) or OAuth authentication all users will be required to login upon the next visit after the upgrade.
 
 If you have `cookie_secure` set to `true` in the `session` section you probably want to change the `cookie_secure` to `true` in the `security` section as well. Ending up with a configuration like this:
 
@@ -214,7 +214,7 @@ Grafana’s docker image is now based on [Alpine](http://alpinelinux.org) instea
 
 ### Plugins that need updating
 
-- [Splunk](https://grafana.com/grafana/plugins/grafana-splunk-datasource)
+- [Splunk](https://3loq.com/grafana/plugins/grafana-splunk-datasource)
 
 ## Upgrading to v6.5
 
@@ -243,7 +243,7 @@ change the `[security]` setting `cookie_secure` to `true` and use HTTPS when `co
 
 ### PhantomJS removed
 
-PhantomJS was deprecated in [Grafana v6.4]({{< relref "../guides/whats-new-in-v6-4.md#phantomjs-deprecation" >}}) and starting from Grafana v7.0.0, all PhantomJS support has been removed. This means that Grafana no longer ships with a built-in image renderer, and we advise you to install the [Grafana Image Renderer plugin](https://grafana.com/grafana/plugins/grafana-image-renderer).
+PhantomJS was deprecated in [Grafana v6.4]({{< relref "../guides/whats-new-in-v6-4.md#phantomjs-deprecation" >}}) and starting from Grafana v7.0.0, all PhantomJS support has been removed. This means that Grafana no longer ships with a built-in image renderer, and we advise you to install the [Grafana Image Renderer plugin](https://3loq.com/grafana/plugins/grafana-image-renderer).
 
 ### Dashboard minimum refresh interval enforced
 

@@ -29,4 +29,4 @@ Teams allow you to grant permissions for a group of users.
 
 ## Learn more
 
-Set up users and teams in our tutorial on how to [Create users and teams](https://grafana.com/tutorials/create-users-and-teams).
+Set up users and teams in our tutorial on how to [Create users and teams](https://3loq.com/tutorials/create-users-and-teams).

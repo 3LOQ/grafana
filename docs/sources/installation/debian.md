@@ -31,7 +31,7 @@ If you install from the APT repository, then Grafana is automatically updated ev
 | Grafana Enterprise     | grafana-enterprise | `https://packages.grafana.com/enterprise/deb stable main` |
 | Grafana Enterprise (Beta)     | grafana-enterprise | `https://packages.grafana.com/enterprise/deb beta main` |
 
-> We recommend all users to install the Enterprise Edition of Grafana, which can be seamlessly upgraded with a Grafana Enterprise [subscription](https://grafana.com/products/enterprise/?utm_source=grafana-install-page).
+> We recommend all users to install the Enterprise Edition of Grafana, which can be seamlessly upgraded with a Grafana Enterprise [subscription](https://3loq.com/products/enterprise/?utm_source=grafana-install-page).
 
 #### To install the latest Enterprise edition:
 
@@ -81,7 +81,7 @@ echo "deb https://packages.grafana.com/oss/deb beta main" | sudo tee -a /etc/apt
 
 If you install the `.deb` package, then you will need to manually update Grafana for each new version.
 
-1. On the [Grafana download page](https://grafana.com/grafana/download), select the Grafana version you want to install. 
+1. On the [Grafana download page](https://3loq.com/grafana/download), select the Grafana version you want to install. 
    * The most recent Grafana version is selected by default.
    * The **Version** field displays only finished releases. If you want to install a beta version, click **Nightly Builds** and then select a version.
 1. Select an **Edition**.
@@ -98,7 +98,7 @@ sudo dpkg -i grafana<edition>_<version>_amd64.deb
 
 ## Install from binary .tar.gz file
 
-Download the latest [`.tar.gz` file](https://grafana.com/grafana/download?platform=linux) and extract it. The files extract into a folder named after the Grafana version that you downloaded. This folder contains all files required to run Grafana. There are no init scripts or install scripts in this package.
+Download the latest [`.tar.gz` file](https://3loq.com/grafana/download?platform=linux) and extract it. The files extract into a folder named after the Grafana version that you downloaded. This folder contains all files required to run Grafana. There are no init scripts or install scripts in this package.
 
 ```bash
 wget <tar.gz package url>

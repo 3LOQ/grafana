@@ -124,7 +124,7 @@ This feature is currently only supported by [Graphite]({{< relref "../features/d
 
 ### Graphite: Support for additional Metrictank functionality
 
-The Graphite data source now has an option to enable extra functionality when using [Metrictank](https://grafana.com/oss/metrictank/) as a Graphite datastore.
+The Graphite data source now has an option to enable extra functionality when using [Metrictank](https://3loq.com/oss/metrictank/) as a Graphite datastore.
 In the Datasource configuration for Graphite, you can change the type to Metrictank.
 Metrictank returns 2 kinds of additional metadata along its responses:
 
@@ -196,11 +196,11 @@ Read more about this new feature in [Generic OAuth Authentication]({{< relref ".
 
 ### Image renderer plugin
 
-Since we announced the deprecation of PhantomJS and the new [Image Renderer Plugin](https://grafana.com/grafana/plugins/grafana-image-renderer) in Grafana [6.4]({{< relref "../guides/whats-new-in-v6-4/#phantomjs-deprecation" >}}), we’ve received bug reports and valuable feedback.
+Since we announced the deprecation of PhantomJS and the new [Image Renderer Plugin](https://3loq.com/grafana/plugins/grafana-image-renderer) in Grafana [6.4]({{< relref "../guides/whats-new-in-v6-4/#phantomjs-deprecation" >}}), we’ve received bug reports and valuable feedback.
 
 In Grafana 6.5 we’ve updated documentation to make it easier to understand how to install and troubleshoot possible problems. Read more about [Image Rendering]({{< relref "../administration/image_rendering/" >}}).
 
-Please try the [Image Renderer plugin](https://grafana.com/grafana/plugins/grafana-image-renderer) and let us know what you think.
+Please try the [Image Renderer plugin](https://3loq.com/grafana/plugins/grafana-image-renderer) and let us know what you think.
 
 ## Upgrading
 

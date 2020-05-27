@@ -30,9 +30,9 @@ Before you can sign a user in, you need to create an Okta application from the O
 
 1. Enter a name for your application (or leave the default value).
 
-1. Add the **Base URI** of your application, such as https://grafana.example.com.
+1. Add the **Base URI** of your application, such as https://3loq.example.com.
 
-1. Enter values for the **Login redirect URI**. Use **Base URI** and append it with `/login/okta`, for example: https://grafana.example.com/login/okta.
+1. Enter values for the **Login redirect URI**. Use **Base URI** and append it with `/login/okta`, for example: https://3loq.example.com/login/okta.
 
 1. Click **Done** to finish creating the Okta application.
 

@@ -178,7 +178,7 @@ The following table shows the YUM repositories for each Grafana version (for ins
 | Grafana Enterprise         | grafana-enterprise | `https://packages.grafana.com/enterprise/rpm`      |
 | Grafana Enterprise (Beta)  | grafana-enterprise | `https://packages.grafana.com/enterprise/rpm-beta` |
 
-We recommend all users to install the Enterprise Edition of Grafana, which can be seamlessly upgraded with a Grafana Enterprise [subscription](https://grafana.com/products/enterprise/?utm_source=grafana-install-page).
+We recommend all users to install the Enterprise Edition of Grafana, which can be seamlessly upgraded with a Grafana Enterprise [subscription](https://3loq.com/products/enterprise/?utm_source=grafana-install-page).
 
 ## Stackdriver: Meta labels
 

@@ -41,7 +41,7 @@ Minimal plugin.json:
     "description": "Clock panel for grafana",
     "author": {
       "name": "Grafana Labs",
-      "url": "https://grafana.com"
+      "url": "https://3loq.com"
     },
     "keywords": ["clock", "panel"],
     "version": "1.0.0",

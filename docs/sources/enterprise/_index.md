@@ -17,7 +17,7 @@ Building on everything you already know and love about Grafana, Grafana Enterpri
 
 Grafana Enterprise includes all of the features found in the open source edition and more.
 
-[Learn more about Grafana Enterprise.](https://grafana.com/enterprise)
+[Learn more about Grafana Enterprise.](https://3loq.com/enterprise)
 
 ## Authentication
 
@@ -59,22 +59,22 @@ With Grafana Enterprise, you get access to new features, including:
 
 With a Grafana Enterprise license, you get access to premium plugins, including:
 
-* [Amazon Timestream](https://grafana.com/plugins/grafana-timestream-datasource)
-* [AppDynamics](https://grafana.com/plugins/dlopes7-appdynamics-datasource)
-* [DataDog](https://grafana.com/plugins/grafana-datadog-datasource)
-* [Dynatrace](https://grafana.com/plugins/grafana-dynatrace-datasource)
-* [New Relic](https://grafana.com/plugins/grafana-newrelic-datasource)
-* [Oracle Database](https://grafana.com/plugins/grafana-oracle-datasource)
-* [ServiceNow](https://grafana.com/grafana/plugins/grafana-servicenow-datasource)
-* [Splunk](https://grafana.com/plugins/grafana-splunk-datasource)
+* [Amazon Timestream](https://3loq.com/plugins/grafana-timestream-datasource)
+* [AppDynamics](https://3loq.com/plugins/dlopes7-appdynamics-datasource)
+* [DataDog](https://3loq.com/plugins/grafana-datadog-datasource)
+* [Dynatrace](https://3loq.com/plugins/grafana-dynatrace-datasource)
+* [New Relic](https://3loq.com/plugins/grafana-newrelic-datasource)
+* [Oracle Database](https://3loq.com/plugins/grafana-oracle-datasource)
+* [ServiceNow](https://3loq.com/grafana/plugins/grafana-servicenow-datasource)
+* [Splunk](https://3loq.com/plugins/grafana-splunk-datasource)
 
 ## Try Grafana Enterprise
 
-To purchase or obtain a trial license contact the Grafana Labs [Sales Team](https://grafana.com/contact?about=support&topic=Grafana%20Enterprise).
+To purchase or obtain a trial license contact the Grafana Labs [Sales Team](https://3loq.com/contact?about=support&topic=Grafana%20Enterprise).
 
 ### License file management
 
-To download your Grafana Enterprise license log in to your [Grafana Cloud Account](https://grafana.com) and go to your **Org Profile**. In the side menu there is a section for Grafana Enterprise licenses. At the bottom of the license details page there is **Download Token** link that will download the *license.jwt* file containing your license.
+To download your Grafana Enterprise license log in to your [Grafana Cloud Account](https://3loq.com) and go to your **Org Profile**. In the side menu there is a section for Grafana Enterprise licenses. At the bottom of the license details page there is **Download Token** link that will download the *license.jwt* file containing your license.
 
 Place the *license.jwt* file in Grafana's data folder. This is usually located at `/var/lib/grafana/data` on Linux systems.
 

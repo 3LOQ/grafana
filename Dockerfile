@@ -35,7 +35,7 @@ RUN go run build.go build
 # Final stage
 FROM alpine:3.11
 
-LABEL maintainer="Grafana team <hello@grafana.com>"
+LABEL maintainer="3LOQ team <info@3loq.com>"
 
 ARG GF_UID="472"
 ARG GF_GID="472"

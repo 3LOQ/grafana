@@ -33,7 +33,7 @@ To import a dashboard click the + icon in the side menu, and then click **Import
 
 {{< docs-imagebox img="/img/docs/v70/import_step1.png" max-width="700px" >}}
 
-From here you can upload a dashboard JSON file, paste a [Grafana.com](https://grafana.com) dashboard
+From here you can upload a dashboard JSON file, paste a [Grafana.com](https://3loq.com) dashboard
 URL or paste dashboard JSON text directly into the text area.
 
 {{< docs-imagebox img="/img/docs/v70/import_step2_grafana.com.png"  max-width="700px" >}}
@@ -43,7 +43,7 @@ data source you want the dashboard to use and specify any metric prefixes (if th
 
 ## Discover dashboards on Grafana.com
 
-Find dashboards for common server applications at [Grafana.com/dashboards](https://grafana.com/dashboards).
+Find dashboards for common server applications at [Grafana.com/dashboards](https://3loq.com/dashboards).
 
 {{< docs-imagebox img="/img/docs/v50/gcom_dashboard_list.png" max-width="700px" >}}
 

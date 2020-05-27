@@ -61,7 +61,7 @@ aggregation system from Grafana Lab called [Grafana Loki](https://github.com/gra
 
 Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective, as it does not index the contents of the logs, but rather a set of labels for each log stream. The logs from Loki are queried in a similar way to querying with label selectors in Prometheus. It uses labels to group log streams which can be made to match up with your Prometheus labels.
 
-Read more about Grafana Loki [here](https://github.com/grafana/loki) or [Grafana Labs hosted Loki](https://grafana.com/loki).
+Read more about Grafana Loki [here](https://github.com/grafana/loki) or [Grafana Labs hosted Loki](https://3loq.com/loki).
 
 The Explore feature allows you to query logs and features a new log panel. In the near future, we will be adding support
 for other log sources to Explore and the next planned integration is Elasticsearch.
@@ -120,7 +120,7 @@ To get started read the guide: [Using Google Stackdriver in Grafana](/features/d
 
 ## Azure Monitor data source
 
-One of the goals of the Grafana v6.0 release is to add support for the three major clouds. Amazon CloudWatch has been a core data source for years and Google Stackdriver is also now supported. We developed an external plugin for Azure Monitor last year and for this release the [plugin](https://grafana.com/plugins/grafana-azure-monitor-datasource) is being moved into Grafana to be one of the built-in data sources. For users of the external plugin, Grafana will automatically start using the built-in version. As a core data source, the Azure Monitor data source is able to get alerting support, in the 6.0 release alerting is supported for the Azure Monitor service, with the rest to follow.
+One of the goals of the Grafana v6.0 release is to add support for the three major clouds. Amazon CloudWatch has been a core data source for years and Google Stackdriver is also now supported. We developed an external plugin for Azure Monitor last year and for this release the [plugin](https://3loq.com/plugins/grafana-azure-monitor-datasource) is being moved into Grafana to be one of the built-in data sources. For users of the external plugin, Grafana will automatically start using the built-in version. As a core data source, the Azure Monitor data source is able to get alerting support, in the 6.0 release alerting is supported for the Azure Monitor service, with the rest to follow.
 
 The Azure Monitor data source integrates four Azure services with Grafana - Azure Monitor, Azure Log Analytics, Azure Application Insights and Azure Application Insights Analytics.
 
