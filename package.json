@@ -40,7 +40,9 @@
     "themes:generate": "ts-node --project ./scripts/cli/tsconfig.json ./scripts/cli/generateSassVariableFiles.ts",
     "typecheck": "tsc --noEmit",
     "plugins:build-bundled": "grafana-toolkit plugin:bundle-managed",
-    "watch": "yarn start -d watch,start core:start --watchTheme "
+    "watch": "yarn start -d watch,start core:start --watchTheme ",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "grafana": {
     "whatsNewUrl": "https://grafana.com/docs/grafana/latest/guides/whats-new-in-v7-0/",
@@ -237,19 +239,19 @@
     "hoist-non-react-statics": "3.3.0",
     "immutable": "3.8.2",
     "is-hotkey": "0.1.6",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "jsurl": "^0.1.5",
     "lodash": "4.17.15",
     "lru-cache": "^5.1.1",
-    "marked": "0.6.2",
+    "marked": "0.7.0",
     "md5": "^2.2.1",
     "memoize-one": "5.1.1",
     "moment": "2.24.0",
     "moment-timezone": "0.5.28",
     "mousetrap": "1.6.5",
     "mousetrap-global-bind": "1.1.0",
-    "nodemon": "2.0.2",
-    "papaparse": "4.6.3",
+    "nodemon": "2.0.3",
+    "papaparse": "5.2.0",
     "prismjs": "1.19.0",
     "prop-types": "15.7.2",
     "rc-cascader": "1.0.1",
@@ -281,7 +283,8 @@
     "tether-drop": "https://github.com/torkelo/drop/tarball/master",
     "tinycolor2": "1.4.1",
     "tti-polyfill": "0.2.2",
-    "whatwg-fetch": "3.0.0"
+    "whatwg-fetch": "3.0.0",
+    "snyk": "^1.345.1"
   },
   "resolutions": {
     "caniuse-db": "1.0.30000772"
@@ -304,5 +307,6 @@
   },
   "volta": {
     "node": "12.16.1"
-  }
+  },
+  "snyk": true
 }
