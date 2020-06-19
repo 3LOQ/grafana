@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.15.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-06-19T06:36:09.938Z'
+    - '@grafana/slate-react > lodash':
+        patched: '2020-06-19T06:36:09.938Z'
+    - '@welldone-software/why-did-you-render > lodash':
+        patched: '2020-06-19T06:36:09.938Z'
+    - slate > lodash:
+        patched: '2020-06-19T06:36:09.938Z'
+    - rst2html > restructured > lodash:
+        patched: '2020-06-19T06:36:09.938Z'
+    - emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-06-19T06:36:09.938Z'
+    - '@torkelo/react-select > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-06-19T06:36:09.938Z'
+    - '@torkelo/react-select > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-06-19T06:36:09.938Z'
